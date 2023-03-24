@@ -111,20 +111,20 @@ describe("GildedROse sample tests", () => {
 });
 
 describe("Array tests", () => {
-  it("checking Array items", () => {
-    let itemList: Item[] = [
-      { name: "sample_item", sellIn: 10, quality: 30 },
-      { name: "Aged Brie", sellIn: 10, quality: 30 },
-      { name: "Aged Brie Wine", sellIn: 0, quality: 30 },
-      { name: "Backstage passes to a Badshah concert", sellIn: 0, quality: 30 },
-      { name: "Backstage passes to a Honey Singh concert", sellIn: 9, quality: 30 },
-      { name: "Backstage passes to a Raftaar concert", sellIn: 3, quality: 30 },
-      { name: "Backstage passes to a MC Stan concert", sellIn: 15, quality: 30 },
-      { name: "Sulfuras the God element", sellIn: 10, quality: 80 },
-    ];
+  
+    it("checking Array items", () => {
+        let itemList: Item[] = [
+            { name: "sample_item", sellIn: 10, quality: 30 },
+            { name: "Aged Brie", sellIn: 10, quality: 30 },
+            { name: "Aged Brie Wine", sellIn: 0, quality: 30 },
+            { name: "Backstage passes to a Badshah concert", sellIn: 0, quality: 30 },
+            { name: "Backstage passes to a Honey Singh concert", sellIn: 9, quality: 30 },
+            { name: "Backstage passes to a Raftaar concert", sellIn: 3, quality: 30 },
+            { name: "Backstage passes to a MC Stan concert", sellIn: 15, quality: 30 },
+            { name: "Sulfuras the God element", sellIn: 10, quality: 80 },
+        ];
 
     const arrayItems = new GildedRose(itemList);
-    // const gildedRose = new GildedRose([new Item("sam", 10, -23)],[new Item("sam", 10, -23)]);
 
     const items = arrayItems.updateQuality();
     expect(items[0]).toStrictEqual({name: "sample_item",sellIn: 9,quality: 29});

@@ -1,6 +1,6 @@
 ### Place 2
 
-Place one has the fun times of linking here, but I can also link back [here](#place-1).
+Place one has the fun times of linking here, but I can also link back [```here```](#place-1).
 can also link back [here](#places-3-other-example).
 
 # Gilded Rose

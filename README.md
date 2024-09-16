@@ -5,7 +5,7 @@ can also link back [here](#places-3-other-example).
 
 # Gilded Rose
 
-This is the Gilded Rose kata in TypeScript.
+This is the Gilded Rose kata in TypeScript. 
 
 ## Getting started
 

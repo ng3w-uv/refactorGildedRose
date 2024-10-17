@@ -10,7 +10,6 @@ export class Item {
   }
 }
 
-const agedBrie = "Aged Brie";
 const backstagePasses = "Backstage passes";
 const sulfuras = "Sulfuras";
 
